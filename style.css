@@ -213,6 +213,10 @@ a:hover {
 .waxom_slider {
   width: 1629px;
   height: 703px;
-  background-image: url();
+  background-image: url(https://raw.githubusercontent.com/kostinvlad/Waxom/master/images/Background.jpg);
   background-size: cover;
+}
+
+.text_slider {
+  text-align: center;
 }
