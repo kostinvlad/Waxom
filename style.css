@@ -91,7 +91,7 @@ a:hover {
 }
 
 .header_text {
-  letter-spacing: 0.7px;
+  letter-spacing: 0.6px;
   width: 577px;
   text-align: center;
   line-height: 50px;
@@ -208,4 +208,11 @@ a:hover {
 
 .service_item_header {
   font-size: 22px;
+}
+
+.waxom_slider {
+  width: 1629px;
+  height: 703px;
+  background-image: url();
+  background-size: cover;
 }
