@@ -215,9 +215,10 @@ a:hover {
   width: 1629px;
   height: 703px;
   background-image: url(https://raw.githubusercontent.com/kostinvlad/Waxom/master/images/Background.jpg);
-  background-size: cover;
+  background-size: cover cover;
 }
 
 .text_slider {
+  padding-top: 150px;
   text-align: center;
 }
