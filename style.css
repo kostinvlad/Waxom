@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500|Raleway:400,500,600,800&display=swap");
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: Raleway, Montserrat;
+}
+
+/* *
+{
+  margin: 0;
+  padding: 0;
+}  */
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c7b299;
+}
+
+.header {
+  position: relative;
+  height: 1024px;
+  background-color: #ccc;
+  background-image: url(https://raw.githubusercontent.com/kostinvlad/Waxom/master/images/Waxom-Hemepage_01.jpg);
+  background-size: cover;
+  background-postition: center;
+  background-repeat: no-repeat;
+}
+
+.header::after {
+  content: "";
+  background-color: #0f0d0e;
+  background-size: cover;
+  z-index: 2;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.header__logo {
+  margin-top: 41px;
+
+}
+
+.header__inner {
+  position: relative;
+  z-index: 3;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav_header__list {
+  letter-spacing: 0.4px;
+  margin-top: 62px;
+  font-size: 13px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.nav_link__item:hover {
+  transition: 0.6s;
+  color: #c7b299;
+}
+
+.nav_link__item:not(:hover) {
+  transition: 0.6s;
+}
+
+.list__item {
+  list-style-type: none;
+}
+
+.list__item:nth-child(n + 2) {
+  margin-left: 29px;
+}
+
+.nav_link_item {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header_text {
+  letter-spacing: 0.7px;
+  width: 577px;
+  text-align: center;
+  line-height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 305px;
+}
+
+.h_r_medium {
+  font-family: Raleway;
+  font-size: 36px;
+  color: #fff;
+
+}
+
+.h_r_extrabold {
+  line-height: 70px;
+  font-family: Raleway;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+
+  width: 577px;
+}
+
+.h_m_light {
+  line-height: 20px;
+  display: block;
+  width: 570px;
+  font-family: Montserrat;
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+  }
+
+.button {
+
+  box-shadow: inset 0px -4px 0px #736357;
+  letter-spacing: 0.1px;
+  font-size: 14px;
+  font-family: Raleway;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #fff;
+  width: 170px;
+  height: 53px;
+  background-color: #998675;
+  border: 0;
+  border-radius: 4px;
+  margin: 100px auto;
+
+}
+
+.button:hover {
+  box-shadow: none;
+  transition: background-color 0.7s linear;
+  background-color: #007d73;
+}
+.button:not(:hover) {
+  transition: 0.7s;
+}
+
+/* Main */
+
+.services {
+
+  min-width: 1200px;
+  height: 374px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.service_item {
+  color: #555555;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 300px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.service_item:nth-child(even){
+  margin-top: 93px;
+}
+
+.service_item:last-child{
+  margin-top: 99px;
+}
+
+.service_item::after {
+
+  display: block;
+  content: "";
+  width: 70px;
+  height: 2px;
+  background-color: #808080;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.service_item::after:nth-child(2) {
+  background-color: #998675;
+}
+
+#icon_2 {
+ width: 44px;
+ height: 44px;
+ margin-bottom: -4px;
+}
+
+
+.service_item_header {
+  font-size: 22px;
+}
